@@ -1,0 +1,34 @@
+.contacts {
+  h2 {
+    text-align: center ;
+  }
+  &__map {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+  }
+  background-color: rgba(255, 245, 225, 0.9);
+  height: 100%;
+  padding: 15px;
+  img {
+    height: 20px;
+    width: 20px;
+    margin-right: 3px;
+  }
+  &__descr {
+    padding-top: 6px;
+  }
+  &__tel a {
+    text-decoration: none;
+    color: #0b1a1e;
+  }
+  @media only screen and (max-width: 480px) {
+    padding: 1px;
+    .contacts__map {
+      display: block;
+    }
+    .map {
+      display: flex;
+    }
+  }
+}

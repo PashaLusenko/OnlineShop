@@ -1,0 +1,28 @@
+.menu {
+  height: 50px;
+  padding-top: 11px;
+  background-color: aliceblue;
+  @media only screen and (max-width: 480px) {
+      height: 85px;
+      padding-top: 7px;
+    .nav-item {
+      padding: 2px;
+    }
+    }
+  }
+
+  .nav-item a {
+    text-decoration: underline;
+    color: #0b0e1e;
+    border: darkblue;
+    background-color: violet;
+    padding: 5px;
+    border-radius: 39px;
+    font-family: "Bell MT", sans-serif;
+
+    &:hover {
+      color: #0b1a1e;
+      opacity: 0.6;
+    }
+  }
+

@@ -1,0 +1,33 @@
+.top {
+  background-color: #f2ffa6;
+  &__phone a {
+    text-decoration: none;
+    color: #0b1a1e;
+  }
+  span {
+    font-family: "HoloLens MDL2 Assets", sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  div.top__decs {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    @media only screen and (max-width: 480px) {
+      display: flex;
+      height: 91px;
+      align-items: center;
+      justify-content: space-around;
+      flex-direction: column;
+      align-content: center;
+      .admin{
+        visibility: hidden;
+      }
+  }
+  img {
+    width: 20px;
+    height: 20px;
+  }
+  }
+}
+
